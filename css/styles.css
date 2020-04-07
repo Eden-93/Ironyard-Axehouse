@@ -1,0 +1,22 @@
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: "Yanone Kaffeesat z", sans-serif;
+}
+
+footer {
+    padding: 20px 0;
+}
+
+.jumbotron {
+    padding: 30px;
+    color: rgb(16, 49, 43);
+}
+
+.row-content {
+    padding: 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 200px;
+}
