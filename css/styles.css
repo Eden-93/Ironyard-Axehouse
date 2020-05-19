@@ -40,3 +40,11 @@ footer {
     width: 100%;
     height: auto;
 }
+
+.navbar {
+    background-color: rgb(16, 49, 43);   
+}
+
+.jumbotron {
+    margin: 0;
+}
