@@ -35,3 +35,8 @@ footer {
 .text-brown {
     color: whitesmoke;
 }
+
+.responsive {
+    width: 100%;
+    height: auto;
+}
