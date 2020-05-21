@@ -28,8 +28,9 @@ footer {
     align-content: center;
 }
 
-.grey-paint {
-    background-image: url("../img/Distorted\ Metal\ Vol.\ 1\ -\ 12.jpg");
+.background-image {
+    background-image: url("../img/photo-of-woodpile-1787035.jpg");
+    background-position: center;
 }
 
 .text-brown {
