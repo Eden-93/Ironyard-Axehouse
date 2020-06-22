@@ -22,10 +22,9 @@ footer {
 }
 
 .row-content {
-    padding: 50px 0;
+    padding: 50px;
     border-bottom: 1px ridge;
     min-height: 200px;
-    align-content: center;
 }
 
 .background-image {
