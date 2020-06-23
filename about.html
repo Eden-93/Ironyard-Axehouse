@@ -85,21 +85,49 @@
         <div class="row row-content">
             <div class="col">
                 <h3>FAQ</h3>
-                <ul class="nav nav-tabs">
-                    <li class="nav-item"> <a class="nav-link active" href="#q1" role="tab" data-toggle="tab"> Is it safe? </a> </li>
-                    <li class="nav-item"> <a class="nav-link" href="#q2" role="tab" data-toggle="tab"> Is there an age limit? </a> </li>
-                    <li class="nav-item"> <a class="nav-link" href="#q3" role="tab" data-toggle="tab"> What should I wear? </a> </li>
-                </ul>
-                <div class="tab-content">
-                    <div role="tabpanel" class="tab-pane fade active" id="q1">
-                        <p class="d-none d-sm-block">Yes.</p>
+                <div id="accordion">
+                    <div class="card">
+                        <div role="tab" class="card-header">
+                            <h4>
+                                <a data-toggle="collapse" data-target="#q1">
+                                    Is it safe?
+                                </a>
+                            </h4>
+                            <div class="collapse show" id="q1" data-parent="#accordion">
+                                <div class="card-body">
+                                    <p class="d-none d-sm-block">Yes.</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div role="tabpanel" class="tab-pane fade" id="q2">
-                        <p class="d-none d-sm-block">10 years old</p>
+                    <div class="card">
+                        <div role="tab" class="card-header">
+                            <h4>
+                                <a class="collapsed" data-toggle="collapse" data-target="#q2">
+                                    Is there an age limit?
+                                </a>
+                            </h4>
+                            <div class="collapse" id="q2" data-parent="#accordion">
+                                <div class="card-body">
+                                    <p class="d-none d-sm-block">As long as you can hold the axe above your head you can throw.</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div role="tabpanel" class="tab-pane fade" id="q3">
-                        <p class="d-none d-sm-block">We recommend comfortable clothes where you can easily left your arms above your head.
-                            Closed toed shoes are encouraged.</p>
+                    <div class="card">
+                        <div role="tab" class="card-header">
+                            <h4>
+                                <a class="collapsed" data-toggle="collapse" data-target="#q3">
+                                    What should we wear?
+                                </a>
+                            </h4>
+                            <div class="collapse" id="q3" data-parent="#accordion">
+                                <div class="card-body">
+                                    <p class="d-none d-sm-block">We recommend comfortable clothes where you can easily left your arms above your head.
+                                        Closed toed shoes are encouraged.</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
