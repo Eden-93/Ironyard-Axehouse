@@ -13,9 +13,14 @@
 </head>
 
 <body>
+    <header>
+        <img src="img/Screen Shot 2020-05-19 at 6.55.47 PM.png" alt="Axe Trailer" class="responsive">
+    </header>
+
     <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
         <div class="container">
-            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#ironyardNavbar">
+            <a class="navbar-brand align-left" href="#"> <img src="img/Ironyard Logo Final.png" height="80" width="105" /></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ironyardNavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="ironyardNavbar">
@@ -29,10 +34,6 @@
         </div>
     </nav>
 
-    <header>
-        <img src="img/Screen Shot 2020-05-19 at 6.55.47 PM.png" alt="Axe Trailer" class="responsive">
-    </header>
-
     <div class="container-fluid">
         <div class="row row-content background-image">
             <div class="col text-center">
@@ -40,12 +41,46 @@
             </div>
         </div>
     </div>
-    
+    <div class="container">
         <div class="row row-content">
-            <div class="col text-center">
-                <h2><strong> How long Do You Want Us To Hang Out?</strong></h1>
+            <div class="col">
+                <h2 style="padding-bottom: 15px;"><strong> How long Do You Want Us To Hang Out?</strong></h1>
             </div>
+        <div class="row">
+            <div class="col col-sm-10 mx-auto">
+                <div class="card">
+                    <h3 class="card-header bg-info text-white"> Reserve the AxeHouse! </h3>
+                    <div class="card-body">
+                        <form class="form-control" id="reserveForm">
+                            <div class="form-group row">
+                                <label for="hours" class="col-sm-6 col-form-label"> How long do you want us to hang out? </label>
+                                <div class="col">
+                                    <select name="hours" id="hours">
+                                        <option value="2" selected>2 hr minimum</option>
+                                        <option value="3">3 hr</option>
+                                        <option value="4">4 hr</option>
+                                        <option value="5">5 hr</option>
+                                        <option value="6">6 hr</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="date" class="col-sm-6 col-form-label"> Date </label>
+                                <div class="col">
+                                    <input type="date" class="form-control" id="date" name="date" placeholder="date" />
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <div class="col">
+                                    <button type="submit" class="btn btn-primary">Search</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div> 
         </div>
+    </div>
 
         <div class="row row-content">
             <div class="col text-center">
@@ -66,6 +101,7 @@
                 Pics
             </div>
         </div>
+    </div>
     
     <footer>
         <div class="container">

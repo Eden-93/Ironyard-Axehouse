@@ -14,9 +14,24 @@
 </head>
 
 <body>
+    <header class="jumbotron jumbotron-fluid">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-4 col-sm-3 col-md-2 align-self-center">
+                    <img src="img/Ironyard Logo Final.png" class="img-fluid" />
+                </div>
+                <div class="col">
+                    <h1> IronYard AxeHouse </h1>
+                    <h2> turn your party up a notch</h2>
+                </div>
+            </div>
+        </div>
+    </header>
+
     <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
         <div class="container">
-            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#ironyardNavbar">
+            <a class="navbar-brand" href="index.html"> <img src="img/Ironyard Logo Final.png" height="80" width="105" /></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ironyardNavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="ironyardNavbar">
@@ -30,18 +45,7 @@
         </div>
     </nav>
 
-    <header class="jumbotron jumbotron-fluid">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col">
-                    <h1> IronYard AxeHouse </h1>
-                    <h2> turn your party up a notch</h2>
-                </div>
-            </div>
-        </div>
-    </header>
-
-    <div class="containter">
+    <div class="container">
         <div class="row">
             <div class="col">
                 <ol class="breadcrumb">
@@ -57,28 +61,52 @@
             <div class="col col-sm-6">
                 <h3> Our Mission </h3>
                 <p>	Our mission is to bring axe throwing to the community in a fun and memorable environment. Our values are critical to our success.  
-                    We will make sure that our customers understand who we are and what we stand for:
-                    Customer commitment: We provide service that make a positive difference in our customers’ lives.
-                    Respect for People: We value our team members and our clients, encourage them and celebrate their performance.
+                    We will make sure that our customers understand who we are and what we stand for!<br>
+                    Customer commitment: We provide services that make a positive difference in our customers’ lives.<br>
+                    Respect for People: We value our team members and our clients, encourage them and celebrate their performance.<br>
                     Citizenship: We are good citizens in our community and hold our selves accountable for how we contribute to it.
                 </p>
+            </div>
+            <div class="col col-sm-6">
+
+            </div>
+            <div class="col">
+                <div class="card bg-light mt-3">
+                    <blockquote class="blockquote card-body">
+                        <p class="mb-0">The purpose of life, after all, is to live it, to taste experience to the utmost, 
+                            to reach out eagerly and without fear for a newer and richer experience.</p>
+                        <footer class="blockquote-footer">Eleanor Roosevelt
+                        </footer>
+                    </blockquote>
+        		</div>
             </div>
         </div>
 
         <div class="row row-content">
             <div class="col">
                 <h3>FAQ</h3>
-                <h4>Is it safe?</h4>
-                <p class="d-none d-sm-block">Yes.</p>
-                <h4>Is there an age limit?</h4>
-                <p class="d-none d-sm-block">10 years old</p>
-                <h4>What should I wear?</h4>
-                <p class="d-none d-sm-block">We recommend comfortable clothes where you can easily left your arms above your head. Closed toed shoes are encouraged.</p>
+                <ul class="nav nav-tabs">
+                    <li class="nav-item"> <a class="nav-link active" href="#q1" role="tab" data-toggle="tab"> Is it safe? </a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="#q2" role="tab" data-toggle="tab"> Is there an age limit? </a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="#q3" role="tab" data-toggle="tab"> What should I wear? </a> </li>
+                </ul>
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane fade active" id="q1">
+                        <p class="d-none d-sm-block">Yes.</p>
+                    </div>
+                    <div role="tabpanel" class="tab-pane fade" id="q2">
+                        <p class="d-none d-sm-block">10 years old</p>
+                    </div>
+                    <div role="tabpanel" class="tab-pane fade" id="q3">
+                        <p class="d-none d-sm-block">We recommend comfortable clothes where you can easily left your arms above your head.
+                            Closed toed shoes are encouraged.</p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 
-    <footer>
+    <footer class="site-footer">
             <div class="container">
                 <div class="row">
                     <div class="col-4 col-sm-2">

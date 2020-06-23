@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="utf-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
@@ -13,11 +12,14 @@
     <title>IronYard AxeHouse Site</title>
 </head>
 
-<body>
+<body data-gr-c-s-loaded="true">
 
     <header class="jumbotron jumbotron-fluid">
         <div class="container-fluid">
             <div class="row">
+                <div class="col-4 col-sm-3 col-md-2 align-self-center">
+                    <img src="img/Ironyard Logo Final.png" class="img-fluid" />
+                </div>
                 <div class="col">
                     <h1> IronYard AxeHouse </h1>
                     <h2> turn your party up a notch</h2>
@@ -28,7 +30,8 @@
 
     <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
         <div class="container">
-            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#ironyardNavbar">
+            <a class="navbar-brand" href="index.html"> <img src="img/Ironyard Logo Final.png" height="80" width="105" /></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ironyardNavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="ironyardNavbar">
@@ -42,7 +45,7 @@
         </div>
     </nav>
 
-    <div class="containter">
+    <div class="container">
         <div class="row">
             <div class="col">
                 <ol class="breadcrumb">
@@ -50,11 +53,18 @@
                     <li class="breadcrumb-item active"> Contact </li>
                 </ol>
                 <h2> Contact Us</h2>
-                <hr />
+                <hr>
             </div>
         </div>
         <div class="row row-content align-items-center">
-            <div class="col-sm-6">
+            <div class="col">
+                <a role="button" class="btn btn-link" href="tel: +16782038201"> <i class="fa fa-phone fa-lg text-primary">
+                    </i> 678-203-8201 </a> <br />
+                <a role="button" class="btn btn-link" href="mailto:ironyardaxehouse@gmail.com"> <i
+                        class="fa fa-envelope-o fa-lg text-primary"> </i> ironyardaxehouse@gmail.com </a>
+            </div>
+            <br>
+            <div class="col-sm-4">
                 <h5>Come Hang Out With Us</h5>
                 <ul class="list-unstyled">
                     <li>
@@ -62,12 +72,6 @@
                     <li> Event 2 </li>
                     <li> Event 3 </li>
                 </ul>
-            </div>
-            <div class="col">
-                <a role="button" class="btn btn-link" href="tel: +16782038201"> <i class="fa fa-phone fa-lg text-primary">
-                    </i> 678-203-8201 </a> <br />
-                <a role="button" class="btn btn-link" href="mailto:ironyardaxehouse@gmail.com"> <i
-                        class="fa fa-envelope-o fa-lg text-primary"> </i> ironyardaxehouse@gmail.com </a>
             </div>
         </div>
     
@@ -135,7 +139,6 @@
                 </form>
             </div>
         </div>
-    
     </div>
 
     <footer>
