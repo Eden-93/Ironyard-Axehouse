@@ -13,14 +13,12 @@
 </head>
 
 <body>
-    <header>
-        <img src="img/Screen Shot 2020-05-19 at 6.55.47 PM.png" alt="Axe Trailer" class="responsive">
-    </header>
-
     <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
         <div class="container">
-            <a class="navbar-brand" href="#"> <img src="img/Ironyard Logo Final.png" height="80" width="105" /></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ironyardNavbar">
+            <a class="navbar-brand" href="#"> 
+                <img src="img/Ironyard Logo Final.png" height=80; width=105; />
+            </a>
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#ironyardNavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="ironyardNavbar">
@@ -30,8 +28,8 @@
                     <li class="nav-item"><a class="nav-link" href="axethrowing.html"> <i class="fa fa-list fa-lg"></i>Axe Throwing</a></li>
                     <li class="nav-item"><a class="nav-link" href="contact.html"> <i class="fa fa-address-card fa-lg"></i>Contact Us</a></li>
                 </ul>
-                <span class="navbar-text ml-5">
-                    <a role="button" data-toggle="modal" data-target="#loginModal">
+                <span class="navbar-text ml-auto">
+                    <a role="button" id="loginButton" data-toggle="modal" data-target="#loginModal">
                         <i class="fa fa-sign-in"> </i> Login
                     </a>
                 </span>
@@ -47,7 +45,7 @@
                 </div>
                 <div class="modal-body">
                     <div class="container-fluid">
-                        <form>
+                        <form action="">
                             <div class="form-row">
                                 <div class="form-group col-12">
                                     <label class="sr-only" for="loginEmail">Email address</label>
@@ -75,14 +73,62 @@
         </div>
     </div>
 
-    <div class="container-fluid">
-        <div class="row row-content background-image">
-            <div class="col text-center">
-                <h1 class="text-brown font-weight-bold">Turn Your Party Up a Notch</h1>
+    <header class="jumbotron2 jumbotron-fluid jumboImage mb-o"> </header>
+
+    
+    <section class="sectionDivider background-image">
+        <h1 class="text-center pt-5 font-weight-bold" style="color: antiquewhite;">Turn Your Party Up a Notch</h1>
+    </section>
+        
+    <div class="container">
+
+        <div class="card-deck mb-5">
+            <div class="row pt-5">
+                <div class="col-4">
+                    <div class="card">
+                        <img class="card-img-top" src="./img/IMG_9211.JPG" alt="">
+                        <div class="card-body">
+                            <h4 class="card-title text-center">Birthday Parties</h4>
+                            <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum ea autem quibusdam eius itaque quis praesentium 
+                                voluptates nulla. Aut consectetur et modi corrupti consequatur! Et, voluptatum placeat! 
+                                Eius, repellat fuga.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card">
+                        <img class="card-img-top" src="./img/Beer Bournon sceenshot.png" alt="">
+                        <div class="card-body">
+                            <h4 class="card-title text-center"> Festivals </h4>
+                            <p class="card-text"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum ea autem quibusdam eius itaque quis praesentium
+                                voluptates nulla. Aut consectetur et modi corrupti consequatur! Et, voluptatum placeat! 
+                                Eius, repellat fuga.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card">
+                        <img class="card-img-top" src="./img/trein anniversary.JPG" alt="">
+                        <div class="card-body">
+                            <h4 class="card-title text-center"> Work Events </h4>
+                            <p class="card-text"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum ea autem quibusdam eius itaque quis praesentium
+                                voluptates nulla. Aut consectetur et modi corrupti consequatur! Et, voluptatum placeat! 
+                                Eius, repellat fuga. </p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="container">
+
+        <div class="row row-content">
+            <div class="col">
+                <h2 class="text-center"><strong> And More!</strong></h2>
+                <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum ea autem quibusdam eius itaque quis praesentium
+                    voluptates nulla. Aut consectetur et modi corrupti consequatur! Et, voluptatum placeat! 
+                    Eius, repellat fuga. </p>
+            </div>
+        </div>
+
         <div class="row row-content">
             <div class="col">
                 <h2 style="padding-bottom: 15px;"><strong> How long Do You Want Us To Hang Out?</strong></h1>
